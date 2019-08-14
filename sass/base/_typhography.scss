@@ -1,3 +1,5 @@
+@import "../abstracts/variables.scss";
+
 body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -20,12 +22,12 @@ body{
         font-size: 60px;
         font-weight: 400;
         letter-spacing: 35px;
-    
+
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
     }
-    
+
     &--sub{
         display: block;
         font-size: 20px;

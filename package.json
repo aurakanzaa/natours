@@ -4,7 +4,8 @@
   "description": "landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "serve:ganteng": "live-server index.html"
   },
   "author": "Aranpm",
   "license": "ISC",
