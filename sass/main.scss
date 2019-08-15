@@ -1,17 +1,20 @@
-@import url(../sass/base/_base.scss);
-@import url(../sass/base/_animation.scss);
-@import url(../sass/base/_typhography.scss);
-@import url(../sass/base/_utilities.scss);
+@import "base/_base.scss";
+@import "base/_animation.scss";
+@import "base/_typhography.scss";
+@import "base/_utilities.scss";
 
-@import url(../sass/abstracts/_functions.scss);
-@import url(../sass/abstracts/_mixins.scss);
-@import url(../sass/abstracts/_variables.scss);
+@import "abstracts/_functions.scss";
+@import "abstracts/_mixins.scss";
+@import "abstracts/_variables.scss";
 
-@import url(../sass/pages/_home.scss);
+@import "sass/pages/_home.scss";
 
-@import url(../sass/layout/_header.scss);
+@import "sass/layout/_header.scss";
+@import "sass/layout/_grid.scss";
 
-@import url(../sass/components/_button.scss);
+@import "components/_button.scss";
+@import "components/_composition.scss";
+
 
 
 
